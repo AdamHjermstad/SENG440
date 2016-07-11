@@ -98,7 +98,7 @@ main(int argc, char *argv[])
 	float KIPS;
 	int continuous;
 
-	loopstart = 1000;		/* see the note about LOOP below */
+	loopstart = 1000000;		/* see the note about LOOP below */
 	continuous = 0;
 
 	II = 1;		/* start at the first arg (temp use of II here) */
